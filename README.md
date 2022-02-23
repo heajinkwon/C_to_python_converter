@@ -17,6 +17,9 @@ FILE* wp = fopen("py-program.py", "w+");
 
 </code>
 </pre>
+
+<pre>
+<code>
 // comment
 
 void function1(int a, int b)
@@ -39,6 +42,11 @@ void function4()
 	print("not parametric void function\n");
 }
 
+</code>
+</pre>
+
+<pre>
+<code>
 int main() {
 
 	int a = 10;
@@ -49,12 +57,24 @@ int main() {
 	char name[4] = "my name is heajin kwon";
 	boolean bol = true;
 	boolean not_bol = false;
+	
+</code>
+</pre>
+
+<pre>
+<code>
 	scanf("%d", &a);
 	scanf("%f", &c);
 	scanf("%s", &name);
 	print("Hello converter Program\n");
 	printf("int value is %d", a);
 
+
+</code>
+</pre>
+
+<pre>
+<code>
 	int k = 5;
 
 	if (k % 2 == 0 && k < 10)
@@ -73,6 +93,12 @@ int main() {
 	printf("k : %d ",k);
 	}
 
+
+</code>
+</pre>
+
+<pre>
+<code>
 	for (int i = 2; i < 4; i++)
 	{
 	printf("%d",i);
@@ -95,3 +121,6 @@ int main() {
 
 	return 0;
 }
+
+</code>
+</pre>
