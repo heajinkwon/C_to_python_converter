@@ -1,10 +1,10 @@
 # C_to_python_converter
 <h4> C언어(.c) --> Python 언어(.py) converter프로그램 개발 </h4>
 <a> 변환을 원하는 c 소스파일을 converter.cpp 파일 내</a>
-	'''c
-	FILE* fp = fopen("c-program.c", "r");
-	FILE* wp = fopen("py-program.py", "w+");
-	'''
+'''c
+FILE* fp = fopen("c-program.c", "r");
+FILE* wp = fopen("py-program.py", "w+");
+'''
 <a>c 소스파일명 입력 및 변환될 .py 파일명 입력</a>
 
 // comment
