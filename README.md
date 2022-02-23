@@ -1,12 +1,10 @@
 # C_to_python_converter
 <h4> C언어(.c) --> Python 언어(.py) converter프로그램 개발 </h4>
 <a> 변환을 원하는 c 소스파일을 converter.cpp 파일 내</a>
-<pre>
-<code>
+```
 FILE* fp = fopen("c-program.c", "r");
 FILE* wp = fopen("py-program.py", "w+");
-</code>
-</pre>
+```
 <a>c 소스파일명 입력 및 변환될 .py 파일명 입력</a>
 
 ## Converter example
@@ -18,8 +16,7 @@ FILE* wp = fopen("py-program.py", "w+");
 #include <random>
 ```
 
-<pre>
-<code>
+```
 // comment
 
 void function1(int a, int b)
@@ -41,12 +38,9 @@ void function4()
 {
 	print("not parametric void function\n");
 }
+```
 
-</code>
-</pre>
-
-<pre>
-<code>
+```
 int main() {
 
 	int a = 10;
@@ -57,24 +51,17 @@ int main() {
 	char name[4] = "my name is heajin kwon";
 	boolean bol = true;
 	boolean not_bol = false;
-	
-</code>
-</pre>
+```
 
-<pre>
-<code>
+```
 	scanf("%d", &a);
 	scanf("%f", &c);
 	scanf("%s", &name);
 	print("Hello converter Program\n");
 	printf("int value is %d", a);
+```
 
-
-</code>
-</pre>
-
-<pre>
-<code>
+```
 	int k = 5;
 
 	if (k % 2 == 0 && k < 10)
@@ -92,13 +79,9 @@ int main() {
 	else {
 	printf("k : %d ",k);
 	}
+```
 
-
-</code>
-</pre>
-
-<pre>
-<code>
+```
 	for (int i = 2; i < 4; i++)
 	{
 	printf("%d",i);
@@ -121,6 +104,4 @@ int main() {
 
 	return 0;
 }
-
-</code>
-</pre>
+```
