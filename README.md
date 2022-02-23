@@ -11,14 +11,12 @@ FILE* wp = fopen("py-program.py", "w+");
 
 ## Converter example
 
-<pre>
-<code>
+```c
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <random>
-</code>
-</pre>
+```
 
 <pre>
 <code>
