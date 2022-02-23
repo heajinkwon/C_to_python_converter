@@ -1,11 +1,11 @@
 # C_to_python_converter
 <h4> C언어(.c) --> Python 언어(.py) converter프로그램 개발 </h4>
-
+<p>
 #include <stdio.h> <br>
 #include <string.h> <br>
 #include <math.h> <br>
 #include <random>
-
+	</p>
 // comment
 
 void function1(int a, int b)
