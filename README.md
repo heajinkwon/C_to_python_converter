@@ -16,7 +16,7 @@ FILE* wp = fopen("py-program.py", "w+");
 #include <random>
 ```
 
-```
+```c
 // comment
 
 void function1(int a, int b)
@@ -40,7 +40,7 @@ void function4()
 }
 ```
 
-```
+```c
 int main() {
 
 	int a = 10;
@@ -61,7 +61,7 @@ int main() {
 	printf("int value is %d", a);
 ```
 
-```
+```c
 	int k = 5;
 
 	if (k % 2 == 0 && k < 10)
@@ -81,7 +81,7 @@ int main() {
 	}
 ```
 
-```
+```c
 	for (int i = 2; i < 4; i++)
 	{
 	printf("%d",i);
