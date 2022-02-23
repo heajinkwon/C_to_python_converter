@@ -13,8 +13,10 @@ FILE* wp = fopen("py-program.py", "w+");
 
 <pre>
 <code>
-
-
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <random>
 </code>
 </pre>
 
